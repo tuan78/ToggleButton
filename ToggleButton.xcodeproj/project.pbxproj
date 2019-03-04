@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EC4DB6222D0FBD00C7B5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC4DB5222D0FBD00C7B5B9 /* AppDelegate.swift */; };
+		17EC4DB8222D0FBD00C7B5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC4DB7222D0FBD00C7B5B9 /* ViewController.swift */; };
+		17EC4DBB222D0FBD00C7B5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EC4DB9222D0FBD00C7B5B9 /* Main.storyboard */; };
+		17EC4DC0222D0FC100C7B5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EC4DBF222D0FC000C7B5B9 /* Assets.xcassets */; };
+		17EC4DC3222D0FC100C7B5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EC4DC1222D0FC100C7B5B9 /* LaunchScreen.storyboard */; };
+		17EC4DCE222D0FC100C7B5B9 /* ToggleButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC4DCD222D0FC100C7B5B9 /* ToggleButtonTests.swift */; };
+		17EC4DDD222D12BD00C7B5B9 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC4DDC222D12BD00C7B5B9 /* PaddingLabel.swift */; };
+		17EC4DDF222D1EB900C7B5B9 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC4DDE222D1EB900C7B5B9 /* ToggleButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EC4DCA222D0FC100C7B5B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EC4DAA222D0FBD00C7B5B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EC4DB1222D0FBD00C7B5B9;
+			remoteInfo = ToggleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EC4DB2222D0FBD00C7B5B9 /* ToggleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EC4DB5222D0FBD00C7B5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17EC4DB7222D0FBD00C7B5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17EC4DBA222D0FBD00C7B5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EC4DBF222D0FC000C7B5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17EC4DC2222D0FC100C7B5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17EC4DC4222D0FC100C7B5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EC4DC9222D0FC100C7B5B9 /* ToggleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EC4DCD222D0FC100C7B5B9 /* ToggleButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonTests.swift; sourceTree = "<group>"; };
+		17EC4DCF222D0FC100C7B5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EC4DDC222D12BD00C7B5B9 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		17EC4DDE222D1EB900C7B5B9 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EC4DAF222D0FBD00C7B5B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC4DC6222D0FC100C7B5B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EC4DA9222D0FBD00C7B5B9 = {
+			isa = PBXGroup;
+			children = (
+				17EC4DB4222D0FBD00C7B5B9 /* ToggleButton */,
+				17EC4DCC222D0FC100C7B5B9 /* ToggleButtonTests */,
+				17EC4DB3222D0FBD00C7B5B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EC4DB3222D0FBD00C7B5B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EC4DB2222D0FBD00C7B5B9 /* ToggleButton.app */,
+				17EC4DC9222D0FC100C7B5B9 /* ToggleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EC4DB4222D0FBD00C7B5B9 /* ToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				17EC4DC4222D0FC100C7B5B9 /* Info.plist */,
+				17EC4DDA222D10AF00C7B5B9 /* Resources */,
+				17EC4DDB222D10B800C7B5B9 /* Sources */,
+			);
+			path = ToggleButton;
+			sourceTree = "<group>";
+		};
+		17EC4DCC222D0FC100C7B5B9 /* ToggleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				17EC4DCD222D0FC100C7B5B9 /* ToggleButtonTests.swift */,
+				17EC4DCF222D0FC100C7B5B9 /* Info.plist */,
+			);
+			path = ToggleButtonTests;
+			sourceTree = "<group>";
+		};
+		17EC4DDA222D10AF00C7B5B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17EC4DBF222D0FC000C7B5B9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17EC4DDB222D10B800C7B5B9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				17EC4DB5222D0FBD00C7B5B9 /* AppDelegate.swift */,
+				17EC4DDC222D12BD00C7B5B9 /* PaddingLabel.swift */,
+				17EC4DDE222D1EB900C7B5B9 /* ToggleButton.swift */,
+				17EC4DB7222D0FBD00C7B5B9 /* ViewController.swift */,
+				17EC4DC1222D0FC100C7B5B9 /* LaunchScreen.storyboard */,
+				17EC4DB9222D0FBD00C7B5B9 /* Main.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EC4DB1222D0FBD00C7B5B9 /* ToggleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EC4DD2222D0FC100C7B5B9 /* Build configuration list for PBXNativeTarget "ToggleButton" */;
+			buildPhases = (
+				17EC4DAE222D0FBD00C7B5B9 /* Sources */,
+				17EC4DAF222D0FBD00C7B5B9 /* Frameworks */,
+				17EC4DB0222D0FBD00C7B5B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleButton;
+			productName = ToggleButton;
+			productReference = 17EC4DB2222D0FBD00C7B5B9 /* ToggleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17EC4DC8222D0FC100C7B5B9 /* ToggleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EC4DD5222D0FC100C7B5B9 /* Build configuration list for PBXNativeTarget "ToggleButtonTests" */;
+			buildPhases = (
+				17EC4DC5222D0FC100C7B5B9 /* Sources */,
+				17EC4DC6222D0FC100C7B5B9 /* Frameworks */,
+				17EC4DC7222D0FC100C7B5B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EC4DCB222D0FC100C7B5B9 /* PBXTargetDependency */,
+			);
+			name = ToggleButtonTests;
+			productName = ToggleButtonTests;
+			productReference = 17EC4DC9222D0FC100C7B5B9 /* ToggleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EC4DAA222D0FBD00C7B5B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tuan Tran";
+				TargetAttributes = {
+					17EC4DB1222D0FBD00C7B5B9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					17EC4DC8222D0FC100C7B5B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17EC4DB1222D0FBD00C7B5B9;
+					};
+				};
+			};
+			buildConfigurationList = 17EC4DAD222D0FBD00C7B5B9 /* Build configuration list for PBXProject "ToggleButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EC4DA9222D0FBD00C7B5B9;
+			productRefGroup = 17EC4DB3222D0FBD00C7B5B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EC4DB1222D0FBD00C7B5B9 /* ToggleButton */,
+				17EC4DC8222D0FC100C7B5B9 /* ToggleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EC4DB0222D0FBD00C7B5B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC4DC3222D0FC100C7B5B9 /* LaunchScreen.storyboard in Resources */,
+				17EC4DC0222D0FC100C7B5B9 /* Assets.xcassets in Resources */,
+				17EC4DBB222D0FBD00C7B5B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC4DC7222D0FC100C7B5B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EC4DAE222D0FBD00C7B5B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC4DDF222D1EB900C7B5B9 /* ToggleButton.swift in Sources */,
+				17EC4DDD222D12BD00C7B5B9 /* PaddingLabel.swift in Sources */,
+				17EC4DB8222D0FBD00C7B5B9 /* ViewController.swift in Sources */,
+				17EC4DB6222D0FBD00C7B5B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC4DC5222D0FC100C7B5B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC4DCE222D0FC100C7B5B9 /* ToggleButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EC4DCB222D0FC100C7B5B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EC4DB1222D0FBD00C7B5B9 /* ToggleButton */;
+			targetProxy = 17EC4DCA222D0FC100C7B5B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17EC4DB9222D0FBD00C7B5B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EC4DBA222D0FBD00C7B5B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EC4DC1222D0FC100C7B5B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EC4DC2222D0FC100C7B5B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EC4DD0222D0FC100C7B5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17EC4DD1222D0FC100C7B5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EC4DD3222D0FC100C7B5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToggleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ToggleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EC4DD4222D0FC100C7B5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToggleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ToggleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17EC4DD6222D0FC100C7B5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToggleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ToggleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleButton.app/ToggleButton";
+			};
+			name = Debug;
+		};
+		17EC4DD7222D0FC100C7B5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToggleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ToggleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToggleButton.app/ToggleButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EC4DAD222D0FBD00C7B5B9 /* Build configuration list for PBXProject "ToggleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC4DD0222D0FC100C7B5B9 /* Debug */,
+				17EC4DD1222D0FC100C7B5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EC4DD2222D0FC100C7B5B9 /* Build configuration list for PBXNativeTarget "ToggleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC4DD3222D0FC100C7B5B9 /* Debug */,
+				17EC4DD4222D0FC100C7B5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EC4DD5222D0FC100C7B5B9 /* Build configuration list for PBXNativeTarget "ToggleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC4DD6222D0FC100C7B5B9 /* Debug */,
+				17EC4DD7222D0FC100C7B5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EC4DAA222D0FBD00C7B5B9 /* Project object */;
+}
